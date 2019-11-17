@@ -25,7 +25,7 @@ import javax.ws.rs.core.Application;
 import io.helidon.common.CollectionsHelper;
 
 /**
- * Simple Application that produces a greeting message.
+ * Simple Application that produces a greeting message and random Cards
  */
 @ApplicationScoped
 @ApplicationPath("/")
@@ -33,6 +33,6 @@ public class GreetApplication extends Application {
 
     @Override
     public Set<Class<?>> getClasses() {
-        return CollectionsHelper.setOf(GreetResource.class);
+        return CollectionsHelper.setOf(GreetResource.class, GreetingCards.class);
     }
 }
