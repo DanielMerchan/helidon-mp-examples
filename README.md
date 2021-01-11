@@ -1,2 +1,2 @@
 # helidon-mp-examples
-Microservices examples using Oracle Helidon MicroProfile
+Microservices examples using Oracle Helidon MicroProfilje
